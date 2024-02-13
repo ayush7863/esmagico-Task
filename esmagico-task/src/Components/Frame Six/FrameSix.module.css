@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.frameSixContainer {
+  border: 0px solid black;
+  height: 790px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.frameSix_1 {
+  border: 0px solid black;
+  height: 80px;
+  width: 1240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.frameSix_1_1 {
+  border: 0px solid green;
+  height: 80px;
+  width: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.frameSix_1_1 > div {
+  border: 0px solid blue;
+  height: 80px;
+  width: 278px;
+}
+
+.eligibility {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#eligiIcon {
+  background-image: url(frameSix.png);
+  border: 0px solid black;
+  width: 39.67px;
+  height: 37.36px;
+}
+
+#eligiIcon + div {
+  border: 0px solid black;
+  width: 109px;
+  height: 36px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#pointerIcon {
+  background-image: url(pointer.png);
+  border: 0px solid black;
+  width: 39.67px;
+  height: 37.36px;
+}
+#pointerIcon + div {
+  border: 0px solid black;
+  width: 155px;
+  height: 36px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.frameSix_1_2 {
+  border: 0px solid black;
+  height: 80px;
+  width: 560px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.frameSix_1_2 > div {
+  border: 0px solid blue;
+  height: 80px;
+  width: 278px;
+}
+
+#documentation {
+  background-image: url(Document.png);
+  border: 0px solid black;
+  width: 39.67px;
+  height: 37.36px;
+}
+
+#documentation + div {
+  border: 0px solid black;
+  width: 176px;
+  height: 36px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#money {
+  background-image: url(money.png);
+  border: 0px solid black;
+  width: 39.67px;
+  height: 37.36px;
+}
+
+#money + div {
+  border: 0px solid black;
+  width: 183px;
+  height: 36px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.frameSix_2 {
+  border: 0px solid black;
+  height: 566px;
+  width: 1280px;
+  background-image: url(loan.png);
+}
+
+@media (max-width: 768px) {
+  .frameSixContainer {
+    border: 0px solid black;
+    height: 500px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .frameSix_1 {
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+  }
+  .frameSix_1_1 {
+    width: 100%;
+  }
+  .eligibility {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  #pointerIcon + div {
+    font-size: 20px;
+    border: none;
+  }
+
+  #documentation + div {
+    font-size: 20px;
+  }
+  #money + div {
+    font-size: 20px;
+  }
+
+  .frameSix_1_2 {
+    width: 100%;
+  }
+
+  .frameSix_1_2 > div {
+    border: 0px solid blue;
+    height: 80px;
+    width: 190px;
+  }
+
+  .frameSix_2 {
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+  }
+}

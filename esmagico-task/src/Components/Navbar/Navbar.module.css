@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+html,
+body {
+  height: 100%;
+  width: 1440px;
+}
+
+.navbarContainer {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+}
+
+nav {
+  width: 1376px;
+  height: 40px;
+  border: 0px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstNavPart {
+  width: 331px;
+  height: 32px;
+  border: 0px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.firstNavPart ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+#logo {
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 48px;
+  height: 32px;
+}
+
+.secNavPart {
+  border: 0px solid black;
+  width: 497px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.searchDiv {
+  width: 258px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px 8px 12px;
+  background-color: #2121211f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+input {
+  width: 210px;
+  height: 20px;
+  border: none;
+  background-color: #e4e4e4;
+}
+
+.iconsDiv {
+  border: 0px solid black;
+  width: 120px;
+  height: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .firstNavPart {
+    width: 200px;
+  }
+  .firstNavPart ul {
+    display: none;
+  }
+  .iconsDiv {
+    width: 40px;
+  }
+
+  #cartIcon,
+  #bellIcon {
+    display: none;
+  }
+
+  .location {
+    display: none;
+  }
+  .secNavPart {
+    justify-content: flex-start;
+    width: 300px;
+  }
+  .searchDiv {
+    /* display: none; */
+    /* position: relative;
+    top: 50px;
+    left: -100px; */
+    width: 60%;
+  }
+  input {
+    width: 100px;
+  }
+}
