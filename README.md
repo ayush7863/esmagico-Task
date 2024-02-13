@@ -20,3 +20,19 @@
     <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"  align="center" alt="vercel"/>
 </div>
 <br/>
+
+## Learnings
+
+- Learned how to write more efficient and clean code.
+
+- Even though also learned how to plan a task and how to execute it step by step.
+
+- We also got a glimpse of using GitHub for version control.
+
+Source Code(GitHub link):- https://github.com/ayush7863/esmagico-Task
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+### Thank you
