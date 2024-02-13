@@ -25,9 +25,9 @@
 
 - Learned how to write more efficient and clean code.
 
-- Even though also learned how to plan a task and how to execute it step by step.
+- Even though I also learned how to plan a task and how to execute it step by step.
 
-- We also got a glimpse of using GitHub for version control.
+- I also got a glimpse of using GitHub for version control.
 
 Source Code(GitHub link):- https://github.com/ayush7863/esmagico-Task
 
